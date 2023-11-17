@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    height: 300px;
+}
+
+
+.logo{
+    background-color: blue;
+    width: 30%;
+   
+}
+
+.centro{
+    background-color: red;
+    width: 40%;
+}
+
+.login{
+    background-color: yellow;
+    width: 30%;
+
+}
+.flex-container{
+ display: flex;
+ flex-direction: row;
+ 
+ }
+
+ nav ul li{
+    list-style-type: none;
+    flex-direction: row;
+ }
