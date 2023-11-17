@@ -6,14 +6,15 @@
 
 header{
     background-color: aqua;
-    height: 300px;
+    height: 600px;
     
 }
 
 
 .logo{
     background-color: blue;
-    width: 30%;
+    width: 25%;
+    
 }
 
 .centro{
@@ -24,13 +25,14 @@ header{
 
 .login{
     background-color: yellow;
-    width: 30%;
+    width: 25%;
 
 }
 .flex-container{
  display: flex;
  justify-content: space-between;
- height: 40px;
+ height: 70px;
+ gap: 30px;
  
  }
 
@@ -44,10 +46,46 @@ header{
     display: flex;
  }
 
- .flex-container2{
-    max-width: 300px;
-    max-height: 200px;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
+ .Scritta1{
+  background-color: violet;
+  width: 40%;
+  height: 300px;
+  margin: 50px auto;
+  border: 2px solid red;
  }
+
+ .pulsanti
+    background-color: cadetblue;
+    width: 200px;
+ }
+
+ .containerPulsante1{
+    background-color: chocolate;
+ }
+
+ .containerPulsante{
+    background-color: blue;
+ }
+ .flex-container2{
+    display: flex;
+
+    height: 40px;
+    width: 100px;
+}
+
+.pulsante1{
+    background-color: brown;
+}
+
+.pulsante2{
+    background-color: tomato;
+}
+
+
+
+.pulsant{
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    }
+
