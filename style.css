@@ -14,7 +14,6 @@ header{
 .logo{
     background-color: blue;
     width: 30%;
-   
 }
 
 .centro{
@@ -43,4 +42,12 @@ header{
 
  nav ul{
     display: flex;
+ }
+
+ .flex-container2{
+    max-width: 300px;
+    max-height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
  }
