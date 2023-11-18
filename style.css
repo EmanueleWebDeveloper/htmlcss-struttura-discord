@@ -6,9 +6,8 @@
 
 header{
     background-color: aqua;
-    height: 600px;
-    border: 2px solid red;
-    
+    height: 550px;
+    border: 2px solid red;   
 }
 
 
@@ -62,17 +61,26 @@ header{
  
  .flex-container2{
     display: flex;
-    justify-content: center;
-    height: 40px;
-    width: 100px;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 70px;
+    gap: 30px;
    } 
 
 .pulsante1{
     background-color: brown;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .pulsante2{
     background-color: tomato;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .containerIMGeTXT{
@@ -162,53 +170,91 @@ header{
 
 footer{
     background-color: aqua;
-    height: 500px;
+    height: 300px;
     display: border 2px solid;
+
    }
    
 .flex-container4{
     display: flex;
-    justify-content: space-evenly; 
-    width: 100%;
+    justify-content: space-around;
+    fl
 }
 
 .social{
     background-color: violet;
     width: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid red;  display: flex;
+    justify-content: center;
+    align-items: center;
 }
    
 .centro1{
     background-color: violet;
     width: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid red;  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .centro2{
     background-color: violet;
     width: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid red;  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .centro3{
     background-color: violet;
     width: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid red;  display: flex;
+    justify-content: center;
+    align-items: center;
 }
    
 .centro4{
     background-color: violet;
     width: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid red;  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.centro42{
+.centro5{
     background-color: violet;
     width: 15%;
-    height: 400px;
+    height: 200px;
     border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
+
+   .flex-container6{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 100px;
+    display: border 2px solid;
+    }
+
+    .dx{
+        background-color: blue;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .sx{
+        background-color: green;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
