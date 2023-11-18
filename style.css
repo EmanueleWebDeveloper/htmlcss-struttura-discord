@@ -62,7 +62,7 @@ header{
  .flex-container2{
     display: flex;
     justify-content: space-around;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     height: 70px;
     gap: 30px;
    } 
